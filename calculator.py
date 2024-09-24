@@ -33,7 +33,7 @@ while True:
         elif choice == '4':
             print(f"divison of {num1} / {num2} is {div(num1, num2)}")
 
-        # Check if user wants another calculation
+        
         next = input("you want more: (yes/no): ")
         if next.lower() == 'no':
             break
